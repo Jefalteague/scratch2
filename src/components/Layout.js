@@ -5,16 +5,13 @@ import { Component } from "react";
 import Header from "./Header";
 import Midsection from "./Midsection"
 import Footer from "./Footer";
-import Home from "./Home";
-import About from "./About";
-import Faq from "./Faq";
-import Contact from "./Contact";
+
 
 class Layout extends Component {
   render() {
     return(
         <BrowserRouter history={hashHistory}>
-          <div id="container">
+          <div id="content_main_container">
             <Header />
             <Midsection />
             <Footer />

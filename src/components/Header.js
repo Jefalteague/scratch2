@@ -9,7 +9,7 @@ class Header extends Component {
   render(){
     return(
 
-      <div className="content_main_container">{/*header open*/}
+
         <div className="header_main_container">
           <div className="header_logo_container">
             <div className="logo_container">
@@ -25,8 +25,7 @@ class Header extends Component {
           </div>
           <Navigation />
         </div>
-      {/*header close*/}
-      </div>
+
     );
   }
 }

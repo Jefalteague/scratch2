@@ -1,3 +1,14 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #ffffe6;
+	margin: 10px auto;
+}
+
 .content_main_container {
   background-color: #e6ffb3;
 	margin: 0 auto;
@@ -7,33 +18,18 @@
 .footer {
   background-color: green;
   height: 150px;
-  border: 3px solid black;
+
 }
 
 .midsection {
-  background-color: yellow;
-  height: 150px;
-  border: 3px solid black;
+  height: 1000px;
+  width: 1300px;
+  margin: 0 auto;
 }
 
-.sidenavigation {
-  background-color: #9999ff;
-  width: 50%;
-  float: left;
-  height: 25px;
-  border: 2px solid red;
-}
 
 .titles {
   font-size: 10pt;
-}
-
-.mainoutput {
-  background-color: #ff3399;
-  width: 50%;
-  float: left;
-  height: 25px;
-  border: 2px solid red;
 }
 
 .nav {
@@ -100,4 +96,82 @@
   width: 50%;
   height: 100px;
   float: right;
+}
+
+.discover {
+
+	width: 40%;
+	padding-bottom: 25px;
+	margin-top: 20px;
+}
+
+#discover_plants {
+
+	width: 40%;
+	float: left;
+	margin-left: 70px;
+
+}
+
+#discover_botany {
+
+	width: 40%;
+	float: right;
+	margin-right: 70px;
+
+}
+
+.center_it {
+
+	text-align: center;
+
+}
+
+.info_box {
+
+	padding: 15px;
+
+}
+
+#center_it {
+
+	border: 5px double grey;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#banner_img {
+
+	padding-bottom: 0px;
+	height: 200px;
+
+}
+
+
+div#footer_main_container {
+
+	clear: both;
+	background-color: #666600;
+	margin: auto;
+	width: 1300px;
+
+}
+
+.footer_box {
+
+	padding-top: 15px;
+	width: 33.33%;
+	float: left;
+	display: block;
+	padding-bottom: 15px;
+
+
+}
+
+.footer_box li {
+
+	list-style-type: none;
+	text-align: center;
+	color: white;
+
 }
