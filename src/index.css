@@ -1,0 +1,45 @@
+.header {
+  background-color: #66ffff;
+
+  border: 3px solid black;
+}
+
+.footer {
+  background-color: green;
+  height: 150px;
+  border: 3px solid black;
+}
+
+.midsection {
+  background-color: yellow;
+  height: 150px;
+  border: 3px solid black;
+}
+
+.sidenavigation {
+  background-color: #9999ff;
+  width: 50%;
+  float: left;
+  height: 25px;
+  border: 2px solid red;
+}
+
+.titles {
+  font-size: 10pt;
+}
+
+.mainoutput {
+  background-color: #ff3399;
+  width: 50%;
+  float: left;
+  height: 25px;
+  border: 2px solid red;
+}
+
+.nav {
+  background-color: #9999ff;
+  width: 50%;
+  float: left;
+  height: 350px;
+  border: 2px solid red;
+}
