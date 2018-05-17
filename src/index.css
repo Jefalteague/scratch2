@@ -1,7 +1,7 @@
-.header {
-  background-color: #66ffff;
-
-  border: 3px solid black;
+.content_main_container {
+  background-color: #e6ffb3;
+	margin: 0 auto;
+	width: 1300px;
 }
 
 .footer {
@@ -42,4 +42,62 @@
   float: left;
   height: 350px;
   border: 2px solid red;
+}
+
+.header_main_container {
+	position: relative;
+	background-color: #d5ff80;
+	margin: auto;
+	width: 1300px;
+	padding-bottom: 2px;
+}
+
+.header_logo_container {
+	height: 100px;
+}
+
+.logo_container {
+  width: 50%;
+	height: 50px;
+	float: left;
+}
+
+.header_nav_container {
+  width: 100%;
+  background-color: #cccc00;
+}
+
+.header_nav_box {
+  background-color: #cccc00;
+	margin: 0px;
+	position: relative;
+	display: inline-block;
+}
+
+#right {
+
+	float: right;
+	margin-top: 75px;
+	margin-right: 15px;
+
+}
+
+.header_nav_container a {
+
+	background-color: #cccc00;
+	text-decoration: none;
+	position: relative;
+	display: inline-block;
+	padding: 15px;
+
+}
+
+.header_nav_container a:hover {
+	background-color: #ffff80;
+}
+
+.slogan_container {
+  width: 50%;
+  height: 100px;
+  float: right;
 }

@@ -9,8 +9,7 @@ const OldSchoolMenuLink = ({ label, to, activeOnlyWhenExact }) => (
     path={to}
     exact={activeOnlyWhenExact}
     children={({ match }) => (
-      <div className={match ? "active" : ""}>
-        {match ? "> " : ""}
+      <div className="header_nav_box">
         <Link to={to}>{label}</Link>
       </div>
     )}
@@ -21,21 +20,11 @@ class Navigation extends Component {
 
   render(){
     return(
-      <div className="nav">{/*open navigation*/}
-        <ul>
-          <li>
-            <OldSchoolMenuLink activeOnlyWhenExact={true} to="/" label="Home" />
-          </li>
-          <li>
-            <OldSchoolMenuLink to="/about" label="About" />
-          </li>
-          <li>
-            <OldSchoolMenuLink to="/contact" label="Contact" />
-          </li>
-          <li>
-            <OldSchoolMenuLink to="/faq" label="Faq" />
-          </li>
-        </ul>
+      <div className="header_nav_container">{/*open navigation*/}
+        <OldSchoolMenuLink activeOnlyWhenExact={true} to="/" label="Home" />
+        <OldSchoolMenuLink to="/about" label="About" />
+        <OldSchoolMenuLink to="/contact" label="Contact" />
+        <OldSchoolMenuLink to="/faq" label="Faq" />
       </div>
     );
   }
