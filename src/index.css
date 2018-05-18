@@ -22,7 +22,7 @@ body {
 }
 
 .midsection {
-  height: 400px;
+
   width: 1300px;
   margin: 0 auto;
 }
@@ -169,8 +169,8 @@ div#footer_main_container {
 }
 
 .aboutright {
-	width: 300px;
+	width: 700px;
 	margin: auto;
-	height: 500px;
+
 	background-color: green;
 }
