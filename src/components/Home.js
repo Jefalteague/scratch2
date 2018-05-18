@@ -8,6 +8,7 @@ class Home extends Component {
       <div className="center_it" id="banner_img">
 
       </div>
+
       <div className="discover" id="discover_plants">
 
 				<h1 className="center_it">Discover Plants!</h1>

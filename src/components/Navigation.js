@@ -22,7 +22,7 @@ class Navigation extends Component {
     return(
       <div className="header_nav_container">{/*open navigation*/}
         <OldSchoolMenuLink activeOnlyWhenExact={true} to="/" label="Home" />
-        <OldSchoolMenuLink to="/about" label="About" />
+        <OldSchoolMenuLink to="/browse" label="Browse" />
         <OldSchoolMenuLink to="/contact" label="Contact" />
         <OldSchoolMenuLink to="/faq" label="Faq" />
       </div>

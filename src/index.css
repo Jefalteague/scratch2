@@ -22,7 +22,7 @@ body {
 }
 
 .midsection {
-  height: 1000px;
+  height: 400px;
   width: 1300px;
   margin: 0 auto;
 }
@@ -122,56 +122,55 @@ body {
 }
 
 .center_it {
-
 	text-align: center;
-
 }
 
 .info_box {
-
 	padding: 15px;
-
 }
 
 #center_it {
-
 	border: 5px double grey;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
 }
 
 #banner_img {
-
 	padding-bottom: 0px;
 	height: 200px;
-
 }
 
 
 div#footer_main_container {
-
 	clear: both;
 	background-color: #666600;
 	margin: auto;
 	width: 1300px;
-
 }
 
 .footer_box {
-
 	padding-top: 15px;
 	width: 33.33%;
 	float: left;
 	display: block;
 	padding-bottom: 15px;
-
-
 }
 
 .footer_box li {
-
 	list-style-type: none;
 	text-align: center;
 	color: white;
+}
 
+.aboutleft {
+	width: 250px;
+	height: 300px;
+	float: left;
+	background-color: red;
+}
+
+.aboutright {
+	width: 300px;
+	margin: auto;
+	height: 500px;
+	background-color: green;
 }
